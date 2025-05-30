@@ -1,0 +1,26 @@
+name: GitHub Actions Workflow
+
+on: 
+  workflow_dispatch:
+  push:
+    paths-ignore:
+      - '.github/workflows/*'
+
+permissions:
+  checks: write
+  actions: read
+  contents: read
+
+jobs:
+  Checking-Solution:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Get repository code
+        uses: actions/checkout@v4
+      - name: Build
+        run: |
+             cmake .
+             cmake --build .
+      - name: Checkout
+        uses: actions/checkout@v4
