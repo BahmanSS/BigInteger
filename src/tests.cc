@@ -6,6 +6,6 @@ TEST(SanityCheck, TrueIsTrue) {
 }
 
 TEST(Constructure, DefaultConstructure) {
-    BigInteger x();
+    BigInteger x{};
     EXPECT_EQ(x, 0);
 }
