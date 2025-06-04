@@ -12,7 +12,6 @@
 
 [Mathematical algorithms used](#Mathematical)
 
-[For further implementation](#Future)
 
 ## 📖 <a id="Description">Description</a>
 I started this project as part of my studies at **SPBU** (Programme Programming and Information Technologies programme) !
@@ -63,6 +62,4 @@ When the project is finished and ready, there will be a tick !!!! ❌
 | `BigInteger pow(unsigned int exp) const`                                   | Returns this number raised to power `exp`               | ❌           |
 
 ## 🧠 <a id="Mathematical">Mathematical algorithms used</a>
-TODO
-## 📝 <a id="Future">For further implementation</a>
 TODO
