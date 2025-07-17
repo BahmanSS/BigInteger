@@ -1,5 +1,5 @@
 #include <iostream>
-#include <biginteger.h>
+#include "biginteger.hpp"
 
 int main() {
   return 0;
