@@ -20,8 +20,11 @@ add_executable(biginttest
     src/tests.cc
     src/biginteger.cpp
 )
-
-target_link_libraries(biginttest gtest gtest_main pthread)
+if(UNIX)
+  target_link_libraries(biginttest gtest gtest_main pthread)
+else()
+  target_link_libraries(biginttest gtest gtest_main)
+endif()
 
 add_custom_target(test ALL
     COMMENT "Running tests for BigInteger..."
