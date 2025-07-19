@@ -23,7 +23,7 @@ It allows storing values that go beyond primitive data types such as int and lon
 
 The goal is to perfect the project, i.e. to optimise the work of most methods, to write tests for the BigInteger class, to design the repository properly and to perfect the work with cmake.
 
-When the project is finished and ready, there will be a tick !!!! ❌
+When the project is finished and ready, there will be a tick !!! ❌
 
 ## 🔧 <a id="Operators">Operators</a>
 | Category               | Operator                          | Description                      | Implemented |
