@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-#include "biginteger.hpp"
+#include "../src/biginteger.hpp"
 
 
 TEST(Create, default_constructor)
